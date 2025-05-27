@@ -8,7 +8,7 @@ func _ready():
 	material.albedo_texture = $SubViewport.get_texture()
 
 	# Apply the material to the MenuQuad
-	$MenuQuad.material_override = material
+	$MenuPlane.material_override = material
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
